@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="157.50804mm"
+   height="61.40144mm"
+   viewBox="0 0 157.50804 61.40144"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient952">
+      <stop
+         style="stop-color:#f5f17e;stop-opacity:1;"
+         offset="0"
+         id="stop950" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-24.074238,-111.74363)">
+    <rect
+       style="mix-blend-mode:normal;fill:#1111ef;fill-opacity:0.86383;fill-rule:evenodd;stroke:none;stroke-width:1.875;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect163"
+       width="157.50804"
+       height="61.401436"
+       x="24.074238"
+       y="111.74363"
+       ry="30.700718" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.9713px;font-family:'Arabic Typesetting';-inkscape-font-specification:'Arabic Typesetting, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:7.96928;stroke-opacity:1;paint-order:markers stroke fill"
+       x="30.565147"
+       y="181.35109"
+       id="text1010"
+       transform="scale(1.1662688,0.85743526)"><tspan
+         id="tspan1008"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.9713px;font-family:'Arabic Typesetting';-inkscape-font-specification:'Arabic Typesetting, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:7.96928"
+         x="30.565147"
+         y="181.35109">AJAX</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,370 @@
+{% extends 'ajax/layout.html' %}
+{% load static %}
+{% block body %}
+   
+	<link href="static/ajax/carousel.css" rel="stylesheet">
+	<link href="static/ajax/features.css" rel="stylesheet">
+	<!-- ===================== Carousel ====================-->
+	<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+		  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<!-- <img src="{% static 'ajax/images/slide1.jpg' %}" class="d-block w-100" alt="Slide  Image"> -->
+			<div class="container">
+			  <div class="carousel-caption">
+				<h1>Web Development Solutions</h1>
+				<p> We provide customized web development services to bring your ideas to life.</p>
+				<p><a class="btn btn-lg btn-primary" href="#contact">Contact us</a></p>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div class="carousel-item">
+			<!-- <img src="{% static 'ajax/images/slide2.jpg' %}" class="d-block w-100" alt="Slide  Image"> -->
+			<div class="container">
+			  <div class="carousel-caption">
+				<h1> Creative Web Design</h1>
+				<p>Crafting visually appealing and user-friendly designs for your business.</p>
+				<p><a class="btn btn-lg btn-primary" href="#contact">Contact us</a></p>
+			  </div>
+			</div>
+		  </div>
+		  
+		    <div class="carousel-item ">
+			<!-- <img src="{% static 'ajax/images/slide3.jpg' %}" class="d-block w-100" alt="Slide  Image"> -->
+			<div class="container">
+			  <div class="carousel-caption">
+				<h1>Responsive & Fast</h1>
+				<p>Ensure your website works seamlessly across all devices with fast load times.</p>
+				<p><a class="btn btn-lg btn-primary" href="#contact">Contact us</a></p>
+			  </div>
+			</div>
+		  </div>
+		  
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	  
+	  
+	<!-- <div class="container-xxl bd-gutter"> -->
+	<!-- <div class="text-center my-4 col-md-6 mx-auto"> -->
+		<!-- <h1 class="fw-semibold">Transform Your Vision into a Digital Experience</h1> -->
+		<!-- <p class="lead">Custom Web Design & Development Solutions Tailored to Your Business Needs</p> -->
+		<!-- <button class="btn btn-primary w-50"> -->
+			<!-- <a class="nav-link" href="#contact">Contact us</a> -->
+		<!-- </button> -->
+	<!-- </div> -->
+	<!-- <p>With years of experience in web design and development, AJAX has helped businesses across various industries establish a strong online presence. Our mission is to empower your business with creative and functional web solutions that drive growth.</p> -->
+	<!-- </div> -->
+	
+	
+	 <!-- jumbotron -->
+	 <div class="row align-items-md-stretch px-4">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2>Innovative Digital Solutions</h2>
+          <p>Empower your brand with cutting-edge digital tools and seamless web experiences that engage and inspire your audience.</p>
+          <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h2>Creative & Flexible Designs</h2>
+          <p>Elevate your online presence with clean, elegant designs that captivate users and deliver exceptional functionality.</p>
+          <!-- <button class="btn btn-outline-secondary" type="button">Example button</button> -->
+        </div>
+      </div>
+    </div>
+
+	
+    <!-- Three columns of text below the carousel -->
+	<!-- <div class="container marketing"> -->
+    <!-- <div class="row"> -->
+      <!-- <div class="col-lg-4"> -->
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+        <!-- <h2 class="fw-normal">Heading</h2> -->
+        <!-- <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> -->
+        <!-- <p><a class="btn btn-secondary" href="#contact">View details &raquo;</a></p> -->
+      <!-- </div><!-- /.col-lg-4 -->
+      <!-- - <div class="col-lg-4"> -->
+        <!-- - <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+        <!-- - <h2 class="fw-normal">Heading</h2> -->
+        <!-- - <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p> -->
+        <!-- - <p><a class="btn btn-secondary" href="#contact">View details &raquo;</a></p> -->
+      <!-- - </div><!-- /.col-lg-4 -->
+      <!-- iv class="col-lg-4"> -->
+        <!-- - <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+        <!-- - <h2 class="fw-normal">Heading</h2> -->
+        <!-- - <p>And lastly this, the third column of representative placeholder content.</p> -->
+        <!-- - <p><a class="btn btn-secondary" href="#contact">View details &raquo;</a></p> -->
+      <!-- - </div><!-- /.col-lg-4 -->
+    <!-- div><!-- /.row -->
+	<!-- </div> -->
+
+<a name="features"></a>
+	<!-- =======================Features================ -->
+	<div class="container px-4 py-5" id="featured-3">
+		<!-- <h2 class="pb-2 border-bottom">Columns with icons</h2> -->
+		<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+		  <div class="feature col">
+			<div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+			   <i class="bi bi-code-slash" style="font-size: 3rem;"></i> 
+			</div>
+			<h3 class="fs-2 text-body-emphasis">Custom Web Development</h3>
+			<p>Tailored solutions to fit your unique business needs, ensuring scalability and performance.</p>
+			<!-- <a href="#contact" class="icon-link"> -->
+			  <!-- Call to action -->
+			  <!-- <svg class="bi"><use xlink:href="#contactchevron-right"></use></svg> -->
+			<!-- </a> -->
+		  </div>
+		  <div class="feature col">
+			<div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+			  <i class="bi bi-phone" style="font-size: 3rem;"></i>
+			</div>
+			<h3 class="fs-2 text-body-emphasis">Responsive Design</h3>
+			<p>Ensure seamless experiences across all devices with our responsive design approach.</p>
+			<!-- <a href="#contact" class="icon-link"> -->
+			  <!-- Call to action -->
+			  <!-- <svg class="bi"><use xlink:href="#contactchevron-right"></use></svg> -->
+			<!-- </a> -->
+		  </div>
+		  <div class="feature col">
+			<div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+			  <i class="bi bi-speedometer2" style="font-size: 3rem;"></i>
+			</div>
+			<h3 class="fs-2 text-body-emphasis">Blazing-Fast Performance</h3>
+			<p> Experience lightning-fast load times and optimized performance to keep your users engaged and satisfied.</p>
+			<!-- <a href="#contact" class="icon-link"> -->
+			  <!-- Call to action -->
+			  <!-- <svg class="bi"><use xlink:href="#contactchevron-right"></use></svg> -->
+			<!-- </a> -->
+		  </div>
+		</div>
+	</div>
+	
+	<!-- =========================Start THE FEATURETTES  =========================-->
+	<div class="container">
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1"> E-Commerce Solutions <span class="text-body-secondary">Boost Your Online Sales</span> </h2> 
+        <p class="lead">Our expertly crafted e-commerce websites offer seamless shopping experiences, secure payment options, and user-friendly navigation to help you reach your sales goals. Whether you’re a small business or a large enterprise, we build scalable platforms that grow with your business.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="{% static 'ajax/images/ecommerce.png' %}" class="d-block h-100 w-100" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1"> Portfolio Websites <span class="text-body-secondary">Showcase Your Work with Style</span></h2>
+        <p class="lead">Create a stunning portfolio website that highlights your creativity, skills, and achievements. Whether you’re a designer, photographer, or artist, we’ll help you build a visually appealing and professional online presence that stands out.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="{% static 'ajax/images/slide3.jpg' %}" class="d-block h-100 w-100" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Business Websites<span class="text-body-secondary"> Elevate Your Brand</span></h2>
+        <p class="lead">Establish a strong digital presence with a business website that reflects your brand identity. From corporate websites to landing pages, we design fast, secure, and responsive websites tailored to your business needs.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="{% static 'ajax/images/business.jpg' %}" class="d-block h-100 w-100" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+  </div><!-- /.container -->
+
+	
+	<!-- Custom Cards -->
+	<div class="container px-4 py-5" id="custom-cards">
+		<!-- <h2 class="pb-2 border-bottom">Custom cards</h2> -->
+
+		<div class="text-center row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+		  <div class="col">
+			<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);">
+			  <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+				<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Multilingual Support</h3>
+				<p class="lead">Expand your reach by creating websites that support multiple languages, catering to diverse audiences worldwide.</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="col">
+			<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);">
+			  <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+				<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> SEO Optimization</h3>
+				<p class="lead">Increase your online visibility with our SEO-friendly web development practices, ensuring that your website ranks well and reaches your target audience.</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="col">
+			<div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);">
+			  <div class="d-flex flex-column h-100 p-2 pb-3 text-shadow-1">
+				<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Affordable Pricing</h3>
+				<p class="lead">Offering cost-effective web solutions without compromising on quality, providing great value for your investment.</p>
+
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+<a name="faqs"></a>
+	<!-- ===================== Accordion =================== -->
+<p class="text-center mx-auto fs-1">Quick Answers</p>
+<div class="accordion" id="accordionExample">
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+			What types of websites do you create?
+		  </button>
+		</h2>
+		<div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			 We specialize in creating a wide range of websites, including e-commerce platforms, portfolio websites, business websites, CV websites, and custom web applications. Whatever your business needs, we have a solution tailored for you.
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="accordion-item">
+		<h2 class="accordion-header">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			 Will my website be mobile-friendly?
+
+		  </button>
+		</h2>
+		<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			 Absolutely! We follow a mobile-first design approach, ensuring that your website is fully responsive and looks great on all devices, including smartphones, tablets, and desktops.
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="accordion-item">
+		<h2 class="accordion-header">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			 How long does it take to build a website?
+		  </button>
+		</h2>
+		<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			The timeline depends on the complexity of the project. Simple websites can take 1-2 weeks, while more complex sites, such as e-commerce platforms or custom web applications, may take 6-12 weeks. We work closely with you to ensure timely delivery.
+		  </div>
+		</div>
+	</div>
+	
+	<div class="accordion-item">
+		<h2 class="accordion-header">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
+			Can you redesign or improve my existing website?
+		  </button>
+		</h2>
+		<div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			Absolutely! We can revamp your current website to improve its design, functionality, performance, and SEO. Whether you need a complete overhaul or just a refresh, we can make your website modern, fast, and user-friendly.
+		  </div>
+		</div>
+	  </div>
+	  
+	  <!-- <div class="accordion-item"> -->
+		<!-- <h2 class="accordion-header"> -->
+		  <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo"> -->
+			<!-- Accordion Item #2 -->
+		  <!-- </button> -->
+		<!-- </h2> -->
+		<!-- <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample"> -->
+		  <!-- <div class="accordion-body"> -->
+			<!-- <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+		  <!-- </div> -->
+		<!-- </div> -->
+	  <!-- </div> -->
+	  
+	  <div class="accordion-item">
+		<h2 class="accordion-header">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+			How much will my website cost?
+		  </button>
+		</h2>
+		<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			The cost depends on the scope and complexity of the project. We offer flexible pricing to suit different budgets, from basic websites to large-scale custom solutions. Contact us for a personalized quote based on your needs.
+			<!-- <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+		  </div>
+		</div>
+	</div>
+</div>
+	
+<hr>
+<a name="contact"></a>
+	<!-- Contact Form Section -->
+{% if  contact %}
+	<h3>We appreciate your message! Expect a response from us soon.</h3>
+{% else %}
+
+<section class="container my-5 " id="contact">
+  <div class="row text-bg-info py-3 rounded-5">
+    <div class="col-md-8 mx-auto">
+      <h2 class="text-center mb-4">Your Next Big Idea Starts Here</h2>
+      <form method="POST" id="contact" action="/#contact">
+        <!-- Name -->
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input name="name" type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+        </div>
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input name="email" type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <!-- Subject -->
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input name="subject" type="text" class="form-control" id="subject" placeholder="Enter the subject">
+        </div>
+        <!-- Message -->
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
+        </div>
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+        </div>
+		{% csrf_token %}
+      </form>
+    </div>
+	
+  </div>
+
+</section>
+{% endif %}
+	
+	
+	
+	
+	
+	
+	
+{% endblock %}
