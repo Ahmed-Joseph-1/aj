@@ -4,7 +4,8 @@
     {
       "src": "AJ/wsgi.py",
       "use": "@vercel/python",
-      "config": { "zeroConfig": true }
+           "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+
     },
     {
       "src": "ajax/static/ajax/**",
